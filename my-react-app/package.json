@@ -1,6 +1,6 @@
 {
   "name": "my-react-app",
-  "homepage": "https://UlyanaShnyr.github.io/login-app.git",
+  "homepage": "http://127.0.0.1:3000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,8 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -24,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
